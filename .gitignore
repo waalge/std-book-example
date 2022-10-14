@@ -1,0 +1,15 @@
+.std/
+.vscode/
+target/
+result
+
+# nixago: ignore-linked-files
+cog.toml
+lefthook.yml
+.conform.yaml
+treefmt.toml
+.prettierrc
+.mdformat.toml
+
+# nixago-auto-created: mdbook-build-folder
+book/**
