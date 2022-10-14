@@ -12,6 +12,12 @@ l.mapAttrs (_: std.lib.dev.mkShell) {
     packages = [
       cell.toolchain.rust.stable.latest.default
     ];
+    nixago = [
+      cell.configs.conform
+      cell.configs.lefthook
+      cell.configs.prettier
+      cell.configs.treefmt
+    ];
     commands = [
       {
         name = "tests";

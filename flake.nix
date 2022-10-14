@@ -12,6 +12,7 @@
           (std.blockTypes.runnables "apps")
           (std.blockTypes.devshells "devshells")
           (std.blockTypes.functions "toolchain")
+          (std.blockTypes.nixago "configs")
         ];
       }
       {
